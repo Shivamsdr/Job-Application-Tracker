@@ -1,15 +1,17 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const LogoutModal = ({ setOpenLogoutModal }) => {
+  const navigate = useNavigate();
+
   const closeLogoutModal = () => {
-    setOpenLogoutModal(false); 
+    setOpenLogoutModal(false);
   };
 
   const handleLogout = () => {
     localStorage.removeItem("jwt");
     localStorage.removeItem("user");
-    window.location.href = "/login";
+    navigate("/login"); // client-side navigation without full reload
   };
 
   return (
@@ -21,17 +23,25 @@ const LogoutModal = ({ setOpenLogoutModal }) => {
             className="font-medium text-gray hover:bg-gray-light/90 hover:text-gray-dark rounded-md py-1.5 px-2"
             onClick={closeLogoutModal}
           >
-            x
+            ×
           </button>
         </div>
         <div className="mb-8 text-gray pr-8">
           <p>Are you sure you want to log out?</p>
         </div>
         <div className="flex gap-4 justify-end">
-          <Link to="/login" className="py-2 px-3 text-sm font-medium text-center text-white bg-error rounded-md" onClick={handleLogout}>
+          <button
+            onClick={handleLogout}
+            className="py-2 px-3 text-sm font-medium text-white bg-error rounded-md"
+          >
             Logout
-          </Link>
-          <button onClick={closeLogoutModal}>Cancel</button>{" "}
+          </button>
+          <button
+            onClick={closeLogoutModal}
+            className="py-2 px-3 text-sm font-medium text-gray-700 bg-gray-200 rounded-md"
+          >
+            Cancel
+          </button>
         </div>
       </div>
     </div>
