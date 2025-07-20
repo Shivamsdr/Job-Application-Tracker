@@ -1,6 +1,6 @@
 # Job Application Tracker
 
-Hi! I'm **Shivam Yadav**, and this is a simple **Job Application Tracker** built to help you stay organized while applying to jobs. Whether you're actively job hunting or just starting out, this app lets you log your applications, update their status, and visualize your progress with neat charts! 🎯
+Hi! I'm **Shivam Yadav**, and this is a simple **Job Application Tracker** built to help you stay organized while applying to jobs. Whether you're actively job hunting or just starting out, this app lets you log your applications, update their status, and visualize your progress with neat charts! 
 
 Built with:
 -  React
