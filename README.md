@@ -1,15 +1,15 @@
-# 💼 Job Application Tracker
+# Job Application Tracker
 
 Hi! I'm **Shivam Yadav**, and this is a simple **Job Application Tracker** built to help you stay organized while applying to jobs. Whether you're actively job hunting or just starting out, this app lets you log your applications, update their status, and visualize your progress with neat charts! 🎯
 
 Built with:
-- ⚛️ React
-- 🎨 Tailwind CSS
-- 📊 Chart.js
+-  React
+-  Tailwind CSS
+-  Chart.js
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Add and manage job applications
 - Track status (Applied, Interviewing, Rejected, etc.)
@@ -18,7 +18,7 @@ Built with:
 
 ---
 
-## 🛠️ Getting Started
+##  Getting Started
 
 Here’s how you can run this project locally:
 
@@ -43,28 +43,14 @@ Go to [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 📌 Notes
+##  GitHub Repo
 
-- This is a beginner-friendly project made while learning the MERN stack.
-- More features like authentication, filtering, and reminders might be added in future updates!
-- Suggestions and contributions are always welcome! 😊
+[ Shivam's Job Application Tracker](https://github.com/Shivamsdr/Job-Application-Tracker)
 
 ---
 
-## 🔗 GitHub Repo
-
-[🔗 Shivam's Job Application Tracker](https://github.com/Shivamsdr/Job-Application-Tracker)
-
----
-
-## 📧 Contact
+##  Contact
 
 Want to connect or collaborate?  
 Find me on GitHub: [Shivamsdr](https://github.com/Shivamsdr)
 
----
-
-## 🌐 Live Demo
-
-Check out the live version here:  
-🔗 [https://jobapplicationtracker-two.vercel.app/](https://jobapplicationtracker-two.vercel.app/)
